@@ -59,10 +59,10 @@ Brainfolio is a digital portfolio web app developed with NestJS and ReactJS
 **Firebase** - Firebase provide a great and ease of use OAuth Server. With firebase, we delegate the responsibility of storing password and sensitive information with firebase. Firebase Storage also provides a way for the application to store files.
 
 ## CI/CD
-**CircleCI** - Used for creating a custom CICD pipelines and helpes with automatic docker deployment 
-**Heroku** - Deploying on Heroku is easy and Heroku allows docker container hosting which makes heroku a great choice
-**Github** - Github is used as a version control 
-**Docker** - Initially used to reduce build size when compiling bcrypt binaries. Overall, it helps to ensure necessary files are in production and nothing more.
+**CircleCI** - Used for creating a custom CICD pipelines and helpes with automatic docker deployment   
+**Heroku** - Deploying on Heroku is easy and Heroku allows docker container hosting which makes heroku a great choice  
+**Github** - Github is used as a version control   
+**Docker** - Initially used to reduce build size when compiling bcrypt binaries. Overall, it helps to ensure necessary files are in production and nothing more.  
 
 ## Build Pipeline
 1. Git push triggers a job in CircleCI that install dependencies and run e2e tests. 
