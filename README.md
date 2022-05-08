@@ -50,7 +50,7 @@ Brainfolio is a digital portfolio web app developed with NestJS and ReactJS
 
 
 ## Tech Stack
-**NestJS** - Intially, we picked .NetCore to have a taste of enterprise development. However, the lack of libraries in the .NetCore forced us to seek another solution. NestJS turns out to be that perfect solution as it support Dependency Injection used in enterprise solutions such as Spring Boot and .Net. We applied service repostiory pattern design in our code. 
+**NestJS** - Intially, we picked .NET Core to have a taste of enterprise development. However, the lack of libraries and longer development time in the .NET Core forced us to seek another solution. NestJS turns out to be that perfect solution as it supports Dependency Injection used in enterprise solutions such as Spring Boot and .NET Core but . We applied service repostiory pattern design in our code. 
 
 **ReactJS** - We knew we wanted a Single Page Application for a more native web experience. Adopting React has also allowed for a more components-based mindset which greatly contributed to seperations of concerns. It increase the interactivity of the application and helps greatly with state management
 
@@ -70,10 +70,6 @@ Brainfolio is a digital portfolio web app developed with NestJS and ReactJS
 3. In the production branch, multi stage docker build is executed which create a minimal and sufficient build for production
 4. Once the docker image is build, it is pushed to Heroku Container registry and released into the heroku dyno which our apps lives in.
 
-
-## Development Guide
-Steps to recreate production such as: (cd, npm install, npm start, runs on localhost3000 (frontend) localhost5000 backend)
-**Front-end** - Create a performant 
 
 ## Documentation
 This can be found in our docs file. <br>The files include:
@@ -100,4 +96,4 @@ This can be found in our docs file. <br>The files include:
 Commit id: 42e6095ef00ae88fe443219972420812be01fef8
 
 ## Note:
-Please give it some time when openning the app, the server is located in united states and heroku have a cold open system when you open the app for the first time. 
+Please give it some time when openning the app, the server is located in united states and heroku have a cold start when the server has been idle for a long time 
